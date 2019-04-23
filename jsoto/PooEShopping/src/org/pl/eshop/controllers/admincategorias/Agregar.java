@@ -6,7 +6,7 @@ import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
 import javax.inject.Named;
 import javax.faces.view.ViewScoped;
-import org.pl.eshop.dto.Categoria;
+import org.pl.eshop.bd.Categoria;
 import org.pl.eshop.dto.CategoriaDAO;
 import org.pl.eshop.dto.CategoriaDAOMySQL;
 
