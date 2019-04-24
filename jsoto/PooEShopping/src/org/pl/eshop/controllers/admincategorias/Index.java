@@ -8,7 +8,7 @@ import javax.faces.context.FacesContext;
 import javax.faces.view.ViewScoped;
 import javax.inject.Named;
 
-import org.pl.eshop.dto.Categoria;
+import org.pl.eshop.bd.Categoria;
 import org.pl.eshop.dto.CategoriaDAO;
 import org.pl.eshop.dto.CategoriaDAOMySQL;
 

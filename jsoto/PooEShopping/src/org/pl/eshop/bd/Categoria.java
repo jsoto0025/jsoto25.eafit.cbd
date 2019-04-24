@@ -1,4 +1,4 @@
-package org.pl.eshop.dto;
+package org.pl.eshop.bd;
 
 public class Categoria {
 	private Integer id;
