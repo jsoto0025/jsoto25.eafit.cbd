@@ -10,7 +10,7 @@ import java.util.List;
 import org.pl.eshop.bd.Conexion;
 import org.pl.eshop.bd.Categoria;
 
-public abstract class CategoriaDAOMySQL implements CategoriaDAO {
+public  class CategoriaDAOMySQL implements CategoriaDAO {
 	Statement st = null;
 	PreparedStatement ps = null;
 	ResultSet rs = null;
@@ -47,8 +47,8 @@ public abstract class CategoriaDAOMySQL implements CategoriaDAO {
 		conn.close();
 	}
 
-	@Override
-	public List<org.pl.eshop.dto.Categoria> obtenerTodas() throws SQLException {
+
+	public List<org.pl.eshop.bd.Categoria> obtenerTodas() throws SQLException {
 		List<Categoria> categorias = new ArrayList<Categoria>();
 		conn = Conexion.getConexion();
 		String s = "SELECT * FROM categoria";
