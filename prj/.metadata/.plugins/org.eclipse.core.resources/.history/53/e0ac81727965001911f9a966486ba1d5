@@ -1,5 +1,0 @@
-package org.pl.eshop.dto;
-
-public enum CategoriaDAO {
-
-}

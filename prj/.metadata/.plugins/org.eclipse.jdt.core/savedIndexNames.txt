@@ -1,1 +1,0 @@
-INDEX VERSION 1.131+D:\FuentesTFS\jsoto25.eafit.cbd\jsoto\.metadata\.plugins\org.eclipse.jdt.core
