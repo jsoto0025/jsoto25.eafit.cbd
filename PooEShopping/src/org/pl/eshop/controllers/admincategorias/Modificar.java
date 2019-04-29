@@ -9,6 +9,8 @@ import javax.faces.view.ViewScoped;
 import org.pl.eshop.dto.Categoria;
 import org.pl.eshop.dto.CategoriaDAO;
 import org.pl.eshop.dto.CategoriaDAOMySQL;
+import javax.faces.view.*;
+
 
 @Named(value = "modificar")
 @ViewScoped

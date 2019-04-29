@@ -1,4 +1,4 @@
-package pl.eshop.general;
+package org.pl.eshop.general;
 
 public class Config {
 	public static final String SERVIDOR = "127.0.0.1";
