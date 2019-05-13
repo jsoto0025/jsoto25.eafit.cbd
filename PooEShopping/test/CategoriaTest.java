@@ -63,7 +63,7 @@ class CategoriaTest {
 		String nombreEsperado = "";
 		String nombreDevuelto = "";
 		//Act
-		categoria = new Categoria()
+		categoria = new Categoria();
 		nombreDevuelto = categoria.getNombre();
 		//Assert
 		Assert.assertSame(nombreEsperado, nombreDevuelto);
